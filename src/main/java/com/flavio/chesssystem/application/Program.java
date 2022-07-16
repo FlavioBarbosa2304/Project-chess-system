@@ -5,7 +5,6 @@ import com.flavio.chesssystem.boardgame.Positon;
 public class Program {
     public static void main(String[] args) {
         Positon pos = new Positon(1, 3);
-        Positon pos3 = new Positon(2, 3);
         System.out.println(pos);
     }
 }
