@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7000af5e-3867-469c-b502-6fa2fe0caa97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/application/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
