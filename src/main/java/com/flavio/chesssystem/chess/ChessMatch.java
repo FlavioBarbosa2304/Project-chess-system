@@ -1,6 +1,10 @@
 package com.flavio.chesssystem.chess;
 
 import com.flavio.chesssystem.boardgame.Board;
+import com.flavio.chesssystem.boardgame.Piece;
+import com.flavio.chesssystem.boardgame.Position;
+import com.flavio.chesssystem.chess.pieces.King;
+import com.flavio.chesssystem.chess.pieces.Rook;
 
 public class ChessMatch {
 
@@ -8,6 +12,7 @@ public class ChessMatch {
 
     public  ChessMatch() {
         board = new Board(8, 8);
+        initialSetup();
     }
 
     public ChessPiece[][] getPieces() {
@@ -19,5 +24,11 @@ public class ChessMatch {
         }
 
         return mat;
+    }
+
+    private void initialSetup() {
+        board.placePiece(new Rook(board, Color.WHITE), new Position(0, 3));
+        board.placePiece(new King(board, Color.BLACK), new Position(0, 3));
+        board.placePiece(new King(board, Color.WHITE), new Position(7, 3));
     }
 }

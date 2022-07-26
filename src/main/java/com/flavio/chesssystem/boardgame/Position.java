@@ -1,11 +1,11 @@
 package com.flavio.chesssystem.boardgame;
 
-public class Positon {
+public class Position {
 
     private int row;
     private int column;
 
-    public Positon(int row, int column) {
+    public Position(int row, int column) {
         this.row = row;
         this.column = column;
     }

@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7000af5e-3867-469c-b502-6fa2fe0caa97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/application/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/ChessMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/BoardException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Positon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/boardgame/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flavio/chesssystem/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/flavi/OneDrive/Documentos/RepoGit/project-chess-system&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/flavi/OneDrive/Documentos/RepoGit/project-chess-system",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.flavio.chesssystem" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flavio.chesssystem.application.Program" />
